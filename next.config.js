@@ -1,4 +1,4 @@
-import { createContentlayerPlugin } from 'next-contentlayer'
+const { createContentlayerPlugin } = require('next-contentlayer')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,4 +8,4 @@ const nextConfig = {
 
 const withContentlayer = createContentlayerPlugin({})
 
-export default withContentlayer(nextConfig)
+module.exports = withContentlayer(nextConfig)
