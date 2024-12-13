@@ -1,4 +1,7 @@
-const config = {
+import { defineConfig } from 'tailwindcss'
+import tailwindcssAnimate from 'tailwindcss-animate'
+
+export default defineConfig({
   darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -72,6 +75,5 @@ const config = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
-}
-export default config
+  plugins: [tailwindcssAnimate],
+})
