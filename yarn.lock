@@ -3416,6 +3416,11 @@ markdown-extensions@^1.0.0:
   resolved "https://registry.npmjs.org/markdown-extensions/-/markdown-extensions-1.1.1.tgz"
   integrity sha512-WWC0ZuMzCyDHYCasEGs4IPvLyTGftYwh6wIEOULOF0HXcqZlhwRzrK0w2VUlxWA98xnvb/jszw4ZSkJ6ADpM6Q==
 
+markdown-wasm@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/markdown-wasm/-/markdown-wasm-1.2.0.tgz#403204100fda293b58075d38b498e73bc109357a"
+  integrity sha512-S12OTkyXCkOgI1n1rZY9cg4bK/PGu80Emjpvwp8BEjwCxhPV3yddF0U6+QhCitdBsI1tzWcoeahmW7k0Pq81OA==
+
 mdast-util-definitions@^5.0.0:
   version "5.1.2"
   resolved "https://registry.npmjs.org/mdast-util-definitions/-/mdast-util-definitions-5.1.2.tgz"
@@ -5317,6 +5322,11 @@ web-streams-polyfill@^3.0.3:
   version "3.3.3"
   resolved "https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz"
   integrity sha512-d2JWLCivmZYTSIoge9MsgFCZrt571BikcWGYkjC1khllbTeDlGqZ2D8vD8E/lJa8WGWbb7Plm8/XJYV7IJHZZw==
+
+web-vitals@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-4.2.4.tgz#1d20bc8590a37769bd0902b289550936069184b7"
+  integrity sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
