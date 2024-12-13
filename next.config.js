@@ -1,6 +1,10 @@
-const { withContentlayer } = require('next-contentlayer')
+const { createContentlayerPlugin } = require('next-contentlayer')
 
-/** @type {import('next').NextConfig} */
-const nextConfig = { reactStrictMode: true, swcMinify: true, css: true }
+const withContentlayer = createContentlayerPlugin({
+  // Additional Contentlayer config options
+})
 
-modeule.exports = withContentlayer(nextConfig)
+module.exports = withContentlayer({
+  reactStrictMode: true,
+  swcMinify: true,
+})
